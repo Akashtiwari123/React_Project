@@ -13,7 +13,24 @@ function App() {
         phone=" (+91)9876543210"
         email="myemail@gmail.com"
       />
-      <ToDoItems /> <ToDoItems /> <ToDoItems />
+      <ToDoItems
+        name="Mr. Noddy"
+        imgURL="url"
+        phone=" (+91)9876543210"
+        email="noddy@gmail.com"
+      />
+      <ToDoItems
+        name="Mr. Scooby"
+        imgURL="url"
+        phone=" (+91)9876543210"
+        email="scooby@gmail.com"
+      />
+      <ToDoItems
+        name="Mr. Jerry"
+        imgURL="url"
+        phone=" (+91)9876543210"
+        email="Jerry@gmail.com"
+      />
       <MainContent />
       <Footer />
     </div>
