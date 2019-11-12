@@ -2,3 +2,13 @@
   font-family: sans-serif;
   text-align: center;
 }
+.navbar {
+  background-color: rgba(107, 14, 14, 0.719);
+  height: 100px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
