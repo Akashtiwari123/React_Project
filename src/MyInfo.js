@@ -26,4 +26,4 @@ function MyInfo() {
   );
 }
 
-ReactDOM.render(<Parent />, document.getElementById("leaf"));
+export default Parent;

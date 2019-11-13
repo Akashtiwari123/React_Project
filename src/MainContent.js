@@ -3,7 +3,7 @@ import React from "react";
 function MainContent() {
   const date = new Date();
   const time = date.toLocaleTimeString();
-  const hours = time;
+  const hours = date.getHours() % 12;
   let timeOfDay;
   const styles = {
     color: "#D90000"
@@ -20,7 +20,7 @@ function MainContent() {
   return (
     <main>
       <h2 style={styles}>Good {timeOfDay}</h2>
-      <h4>Its {hours} o'clock</h4>
+      <h4>Its {time} o'clock</h4>
     </main>
   );
 }
